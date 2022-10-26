@@ -34,7 +34,7 @@ void QueuePush(Queue*pq, QDtatType x)//队尾入
 	}
 	newnode->data = x;
 	newnode->next = NULL;
-	if (pq->tail == NULL)
+	if (pq->head == NULL)//判断队列是不是空的
 	{
 		pq->head = newnode;
 		pq->tail = newnode;

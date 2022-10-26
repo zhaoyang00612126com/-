@@ -116,15 +116,24 @@ void levelOrder(BTNode* root)//二叉树的层序遍历
 		}
 
 	}
-
-
 	printf("\n");
 	QueueDestory(&q);
-
-
-
-
 }
+
+void DestoryTree(struct BinaryTreeNode* root)//后序销毁
+{
+	if (root == NULL)
+	{
+		return;
+	
+	}
+	DestoryTree(root->left);
+	DestoryTree(root->right);
+	free(root);
+	
+}
+
+
 int main()
 {
 	BTNode*A = (BTNode*)malloc(sizeof(BTNode));

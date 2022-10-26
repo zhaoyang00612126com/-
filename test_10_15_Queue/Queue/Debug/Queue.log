@@ -1,11 +1,6 @@
-﻿生成启动时间为 2022/10/15 19:32:20。
-     1>项目“C:\Users\dell-pc\Desktop\code\Queue\Queue\Queue.vcxproj”在节点 2 上(Build 个目标)。
-     1>Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\dell-pc\Desktop\code\Queue\Debug\Queue.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\dell-pc\Desktop\code\Queue\Debug\Queue.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\dell-pc\Desktop\code\Queue\Debug\Queue.lib" /MACHINE:X86 Debug\queue.obj
-         Debug\test.obj
-         Queue.vcxproj -> C:\Users\dell-pc\Desktop\code\Queue\Debug\Queue.exe
-     1>已完成生成项目“C:\Users\dell-pc\Desktop\code\Queue\Queue\Queue.vcxproj”(Build 个目标)的操作。
-
-生成成功。
-
-已用时间 00:00:00.53
+﻿  queue.c
+D:\code\数据结构\-\test_10_15_Queue\Queue\queue.c(16,1): warning C4133: “初始化”: 从“QuedeNode *”到“QNode *”的类型不兼容
+D:\code\数据结构\-\test_10_15_Queue\Queue\queue.c(44,27): warning C4133: “=”: 从“QNode *”到“QuedeNode *”的类型不兼容
+D:\code\数据结构\-\test_10_15_Queue\Queue\queue.c(64,1): warning C4133: “初始化”: 从“QuedeNode *”到“QNode *”的类型不兼容
+D:\code\数据结构\-\test_10_15_Queue\Queue\queue.c(100,18): warning C4133: “=”: 从“QuedeNode *”到“QNode *”的类型不兼容
+  Queue.vcxproj -> D:\code\数据结构\-\test_10_15_Queue\Debug\Queue.exe

@@ -1,133 +1,135 @@
 ﻿  queue.c
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(11,15): error C2143: 语法错误: 缺少“{”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(16,2): error C2061: 语法错误: 标识符“QDtatType”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(20,1): error C2059: 语法错误:“}”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(25,2): error C2061: 语法错误: 标识符“QNode”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(26,7): error C2143: 语法错误: 缺少“{”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(28,1): error C2059: 语法错误:“}”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(30,21): error C2143: 语法错误: 缺少“)”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(30,21): error C2143: 语法错误: 缺少“{”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(30,24): error C2059: 语法错误:“)”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(31,24): error C2143: 语法错误: 缺少“)”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(31,24): error C2143: 语法错误: 缺少“{”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(31,27): error C2059: 语法错误:“)”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(33,21): error C2143: 语法错误: 缺少“)”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(33,21): error C2143: 语法错误: 缺少“{”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(33,26): error C2040: “QDtatType”:“int”与“int *”的间接寻址级别不同
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(33,36): error C2146: 语法错误: 缺少“;”(在标识符“x”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(33,37): error C2059: 语法错误:“)”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(34,20): error C2143: 语法错误: 缺少“)”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(34,20): error C2143: 语法错误: 缺少“{”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(34,23): error C2059: 语法错误:“)”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(37,11): error C2061: 语法错误: 标识符“QueueFront”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(37,11): error C2059: 语法错误:“;”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(37,27): error C2143: 语法错误: 缺少“)”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(37,27): error C2143: 语法错误: 缺少“{”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(37,30): error C2059: 语法错误:“)”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(38,11): error C2061: 语法错误: 标识符“QueueBack”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(38,11): error C2059: 语法错误:“;”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(38,26): error C2143: 语法错误: 缺少“)”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(38,26): error C2143: 语法错误: 缺少“{”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(38,29): error C2059: 语法错误:“)”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(40,20): error C2143: 语法错误: 缺少“)”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(40,20): error C2143: 语法错误: 缺少“{”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(40,23): error C2059: 语法错误:“)”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(42,22): error C2143: 语法错误: 缺少“)”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(42,22): error C2143: 语法错误: 缺少“{”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(42,25): error C2059: 语法错误:“)”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.c(3,21): error C2143: 语法错误: 缺少“)”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.c(3,21): error C2143: 语法错误: 缺少“{”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.c(3,24): error C2059: 语法错误:“)”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.c(4,1): error C2054: 在“pq”之后应输入“(”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.c(10,24): error C2143: 语法错误: 缺少“)”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.c(10,24): error C2143: 语法错误: 缺少“{”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.c(10,27): error C2059: 语法错误:“)”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.c(11,1): error C2054: 在“pq”之后应输入“(”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.c(26,21): error C2143: 语法错误: 缺少“)”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.c(26,21): error C2143: 语法错误: 缺少“{”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.c(26,26): error C2040: “QDtatType”:“int”与“int *”的间接寻址级别不同
-D:\code\数据结构\-\test_10_17\test_10_17\queue.c(26,36): error C2146: 语法错误: 缺少“;”(在标识符“x”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.c(26,37): error C2059: 语法错误:“)”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.c(27,1): error C2054: 在“x”之后应输入“(”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.c(50,20): error C2143: 语法错误: 缺少“)”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.c(50,20): error C2143: 语法错误: 缺少“{”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.c(50,23): error C2059: 语法错误:“)”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.c(51,1): error C2054: 在“pq”之后应输入“(”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.c(74,11): error C2061: 语法错误: 标识符“QueueFront”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.c(74,11): error C2059: 语法错误:“;”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.c(74,27): error C2143: 语法错误: 缺少“)”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.c(74,27): error C2143: 语法错误: 缺少“{”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.c(74,30): error C2059: 语法错误:“)”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.c(75,1): error C2054: 在“pq”之后应输入“(”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.c(83,11): error C2061: 语法错误: 标识符“QueueBack”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.c(83,11): error C2059: 语法错误:“;”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.c(83,26): error C2143: 语法错误: 缺少“)”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.c(83,26): error C2143: 语法错误: 缺少“{”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.c(83,29): error C2059: 语法错误:“)”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.c(84,1): error C2054: 在“pq”之后应输入“(”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.c(92,20): error C2143: 语法错误: 缺少“)”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.c(92,20): error C2143: 语法错误: 缺少“{”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.c(92,23): error C2059: 语法错误:“)”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.c(93,1): error C2054: 在“pq”之后应输入“(”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.c(105,22): error C2143: 语法错误: 缺少“)”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.c(105,22): error C2143: 语法错误: 缺少“{”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.c(105,25): error C2059: 语法错误:“)”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.c(106,1): error C2054: 在“pq”之后应输入“(”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(11,15): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(16,2): error C2061: 语法错误: 标识符“QDtatType”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(20,1): error C2059: 语法错误:“}”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(25,2): error C2061: 语法错误: 标识符“QNode”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(26,7): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(28,1): error C2059: 语法错误:“}”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(30,21): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(30,21): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(30,24): error C2059: 语法错误:“)”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(31,24): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(31,24): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(31,27): error C2059: 语法错误:“)”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(33,21): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(33,21): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(33,26): error C2040: “QDtatType”:“int”与“int *”的间接寻址级别不同
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(33,36): error C2146: 语法错误: 缺少“;”(在标识符“x”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(33,37): error C2059: 语法错误:“)”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(34,20): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(34,20): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(34,23): error C2059: 语法错误:“)”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(37,11): error C2061: 语法错误: 标识符“QueueFront”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(37,11): error C2059: 语法错误:“;”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(37,27): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(37,27): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(37,30): error C2059: 语法错误:“)”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(38,11): error C2061: 语法错误: 标识符“QueueBack”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(38,11): error C2059: 语法错误:“;”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(38,26): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(38,26): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(38,29): error C2059: 语法错误:“)”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(40,20): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(40,20): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(40,23): error C2059: 语法错误:“)”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(42,22): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(42,22): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(42,25): error C2059: 语法错误:“)”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.c(3,21): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.c(3,21): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.c(3,24): error C2059: 语法错误:“)”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.c(4,1): error C2054: 在“pq”之后应输入“(”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.c(10,24): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.c(10,24): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.c(10,27): error C2059: 语法错误:“)”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.c(11,1): error C2054: 在“pq”之后应输入“(”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.c(26,21): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.c(26,21): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.c(26,26): error C2040: “QDtatType”:“int”与“int *”的间接寻址级别不同
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.c(26,36): error C2146: 语法错误: 缺少“;”(在标识符“x”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.c(26,37): error C2059: 语法错误:“)”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.c(27,1): error C2054: 在“x”之后应输入“(”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.c(50,20): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.c(50,20): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.c(50,23): error C2059: 语法错误:“)”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.c(51,1): error C2054: 在“pq”之后应输入“(”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.c(74,11): error C2061: 语法错误: 标识符“QueueFront”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.c(74,11): error C2059: 语法错误:“;”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.c(74,27): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.c(74,27): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.c(74,30): error C2059: 语法错误:“)”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.c(75,1): error C2054: 在“pq”之后应输入“(”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.c(83,11): error C2061: 语法错误: 标识符“QueueBack”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.c(83,11): error C2059: 语法错误:“;”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.c(83,26): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.c(83,26): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.c(83,29): error C2059: 语法错误:“)”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.c(84,1): error C2054: 在“pq”之后应输入“(”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.c(92,20): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.c(92,20): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.c(92,23): error C2059: 语法错误:“)”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.c(93,1): error C2054: 在“pq”之后应输入“(”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.c(105,22): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.c(105,22): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.c(105,25): error C2059: 语法错误:“)”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.c(106,1): error C2054: 在“pq”之后应输入“(”
   test.c
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(11,15): error C2143: 语法错误: 缺少“{”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(16,2): error C2061: 语法错误: 标识符“QDtatType”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(20,1): error C2059: 语法错误:“}”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(25,2): error C2061: 语法错误: 标识符“QNode”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(26,7): error C2143: 语法错误: 缺少“{”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(28,1): error C2059: 语法错误:“}”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(30,21): error C2143: 语法错误: 缺少“)”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(30,21): error C2143: 语法错误: 缺少“{”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(30,24): error C2059: 语法错误:“)”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(31,24): error C2143: 语法错误: 缺少“)”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(31,24): error C2143: 语法错误: 缺少“{”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(31,27): error C2059: 语法错误:“)”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(33,21): error C2143: 语法错误: 缺少“)”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(33,21): error C2143: 语法错误: 缺少“{”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(33,26): error C2040: “QDtatType”:“int”与“int *”的间接寻址级别不同
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(33,36): error C2146: 语法错误: 缺少“;”(在标识符“x”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(33,37): error C2059: 语法错误:“)”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(34,20): error C2143: 语法错误: 缺少“)”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(34,20): error C2143: 语法错误: 缺少“{”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(34,23): error C2059: 语法错误:“)”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(37,11): error C2061: 语法错误: 标识符“QueueFront”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(37,11): error C2059: 语法错误:“;”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(37,27): error C2143: 语法错误: 缺少“)”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(37,27): error C2143: 语法错误: 缺少“{”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(37,30): error C2059: 语法错误:“)”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(38,11): error C2061: 语法错误: 标识符“QueueBack”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(38,11): error C2059: 语法错误:“;”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(38,26): error C2143: 语法错误: 缺少“)”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(38,26): error C2143: 语法错误: 缺少“{”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(38,29): error C2059: 语法错误:“)”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(40,20): error C2143: 语法错误: 缺少“)”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(40,20): error C2143: 语法错误: 缺少“{”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(40,23): error C2059: 语法错误:“)”
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(42,22): error C2143: 语法错误: 缺少“)”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(42,22): error C2143: 语法错误: 缺少“{”(在“*”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\queue.h(42,25): error C2059: 语法错误:“)”
-D:\code\数据结构\-\test_10_17\test_10_17\test.c(92,8): error C2065: “Queue”: 未声明的标识符
-D:\code\数据结构\-\test_10_17\test_10_17\test.c(92,8): error C2146: 语法错误: 缺少“;”(在标识符“q”的前面)
-D:\code\数据结构\-\test_10_17\test_10_17\test.c(92,9): error C2065: “q”: 未声明的标识符
-D:\code\数据结构\-\test_10_17\test_10_17\test.c(93,11): warning C4013: “QueueInit”未定义；假设外部返回 int
-D:\code\数据结构\-\test_10_17\test_10_17\test.c(93,14): error C2065: “q”: 未声明的标识符
-D:\code\数据结构\-\test_10_17\test_10_17\test.c(96,12): warning C4013: “QueuePush”未定义；假设外部返回 int
-D:\code\数据结构\-\test_10_17\test_10_17\test.c(96,15): error C2065: “q”: 未声明的标识符
-D:\code\数据结构\-\test_10_17\test_10_17\test.c(99,20): warning C4013: “QueueEmpty”未定义；假设外部返回 int
-D:\code\数据结构\-\test_10_17\test_10_17\test.c(99,23): error C2065: “q”: 未声明的标识符
-D:\code\数据结构\-\test_10_17\test_10_17\test.c(102,29): warning C4013: “QueueFront”未定义；假设外部返回 int
-D:\code\数据结构\-\test_10_17\test_10_17\test.c(102,32): error C2065: “q”: 未声明的标识符
-D:\code\数据结构\-\test_10_17\test_10_17\test.c(103,11): warning C4013: “QueuePop”未定义；假设外部返回 int
-D:\code\数据结构\-\test_10_17\test_10_17\test.c(103,14): error C2065: “q”: 未声明的标识符
-D:\code\数据结构\-\test_10_17\test_10_17\test.c(108,16): error C2065: “q”: 未声明的标识符
-D:\code\数据结构\-\test_10_17\test_10_17\test.c(113,16): error C2065: “q”: 未声明的标识符
-D:\code\数据结构\-\test_10_17\test_10_17\test.c(120,14): warning C4013: “QueueDestory”未定义；假设外部返回 int
-D:\code\数据结构\-\test_10_17\test_10_17\test.c(120,17): error C2065: “q”: 未声明的标识符
-D:\code\数据结构\-\test_10_17\test_10_17\test.c(102,1): warning C4047: “初始化”:“BTNode *”与“int”的间接级别不同
-D:\code\数据结构\-\test_10_17\test_10_17\test.c(187,15): warning C4047: “函数”:“BTNode *”与“BTNode **”的间接级别不同
-D:\code\数据结构\-\test_10_17\test_10_17\test.c(187,13): warning C4024: “levelOrder”: 形参和实参 1 的类型不同
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(11,15): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(16,2): error C2061: 语法错误: 标识符“QDtatType”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(20,1): error C2059: 语法错误:“}”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(25,2): error C2061: 语法错误: 标识符“QNode”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(26,7): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(28,1): error C2059: 语法错误:“}”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(30,21): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(30,21): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(30,24): error C2059: 语法错误:“)”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(31,24): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(31,24): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(31,27): error C2059: 语法错误:“)”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(33,21): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(33,21): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(33,26): error C2040: “QDtatType”:“int”与“int *”的间接寻址级别不同
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(33,36): error C2146: 语法错误: 缺少“;”(在标识符“x”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(33,37): error C2059: 语法错误:“)”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(34,20): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(34,20): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(34,23): error C2059: 语法错误:“)”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(37,11): error C2061: 语法错误: 标识符“QueueFront”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(37,11): error C2059: 语法错误:“;”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(37,27): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(37,27): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(37,30): error C2059: 语法错误:“)”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(38,11): error C2061: 语法错误: 标识符“QueueBack”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(38,11): error C2059: 语法错误:“;”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(38,26): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(38,26): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(38,29): error C2059: 语法错误:“)”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(40,20): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(40,20): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(40,23): error C2059: 语法错误:“)”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(42,22): error C2143: 语法错误: 缺少“)”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(42,22): error C2143: 语法错误: 缺少“{”(在“*”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\queue.h(42,25): error C2059: 语法错误:“)”
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\test.c(94,8): error C2065: “Queue”: 未声明的标识符
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\test.c(94,8): error C2146: 语法错误: 缺少“;”(在标识符“q”的前面)
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\test.c(94,9): error C2065: “q”: 未声明的标识符
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\test.c(95,11): warning C4013: “QueueInit”未定义；假设外部返回 int
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\test.c(95,14): error C2065: “q”: 未声明的标识符
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\test.c(98,12): warning C4013: “QueuePush”未定义；假设外部返回 int
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\test.c(98,15): error C2065: “q”: 未声明的标识符
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\test.c(101,20): warning C4013: “QueueEmpty”未定义；假设外部返回 int
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\test.c(101,23): error C2065: “q”: 未声明的标识符
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\test.c(104,29): warning C4013: “QueueFront”未定义；假设外部返回 int
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\test.c(104,32): error C2065: “q”: 未声明的标识符
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\test.c(105,11): warning C4013: “QueuePop”未定义；假设外部返回 int
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\test.c(105,14): error C2065: “q”: 未声明的标识符
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\test.c(110,16): error C2065: “q”: 未声明的标识符
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\test.c(115,16): error C2065: “q”: 未声明的标识符
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\test.c(120,14): warning C4013: “QueueDestory”未定义；假设外部返回 int
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\test.c(120,17): error C2065: “q”: 未声明的标识符
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\test.c(104,1): warning C4047: “初始化”:“BTNode *”与“int”的间接级别不同
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\test.c(130,20): error C2223: “->left”的左侧必须指向结构/联合
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\test.c(130,13): error C2198: “DestoryTree”: 用于调用的参数太少
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\test.c(131,20): error C2223: “->right”的左侧必须指向结构/联合
+D:\code\数据结构\-\test_10_17(twoXtreeNode)\test_10_17\test.c(131,13): error C2198: “DestoryTree”: 用于调用的参数太少
   正在生成代码...

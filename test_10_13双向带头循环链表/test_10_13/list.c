@@ -41,7 +41,7 @@ void ListPrint(ListNode*phead)
 
 void ListPushFront(ListNode*phead, LTDataType x)//头插
 {
-	ListNode*first = phead->next;
+	ListNode*first = phead->next;//原本的第一个节点
 	ListNode*newnode = BuyListNode(x);
 
 	phead->next = newnode;
@@ -51,7 +51,7 @@ void ListPushFront(ListNode*phead, LTDataType x)//头插
 
 }
 
-void ListPopFront(ListNode*phead, LTDataType x)
+void ListPopFront(ListNode*phead, LTDataType x)//头删
 {
 	assert(phead->next != phead);//判断是不是一个节点也没有
 	ListNode*first = phead->next;

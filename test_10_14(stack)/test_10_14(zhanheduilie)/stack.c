@@ -2,16 +2,21 @@
 
 void StackInit(Stack* ps)
 {
-	ps->a = (STDataType*)malloc(sizeof(STDataType)* 4);
-	if (ps->a == NULL)
+	STDataType*tmp = (STDataType*)malloc(sizeof(STDataType)* 4);
+
+	if (tmp == NULL)
 	{
 		printf("malloc fail\n");
 		exit(-1);
 	}
+	else 
+	{
+		ps->a = tmp;
+		ps->capacity = 4;
+		ps->top = 0;//topÕâÀï¿ÉÒÔ¸ø0Ò²¿ÉÒÔ¸ø-1£¬¸ø0µÄ»°£¬topÊ¼ÖÕÖ¸ÏòÐÂ²åÈëÕ»¶¥µÄÊý¾ÝµÄÏÂÒ»¸ö
+		//¸ø-1µÄ»°£¬Ëû¾ÍÄÜ²åÈëÄÄ¸ö¾Í¸øÄÄ¸ö¡£
+	}
 	
-	ps->capacity = 4;
-	ps->top =0 ;//topÕâÀï¿ÉÒÔ¸ø0Ò²¿ÉÒÔ¸ø-1£¬¸ø0µÄ»°£¬topÊ¼ÖÕÖ¸ÏòÐÂ²åÈëÕ»¶¥µÄÊý¾ÝµÄÏÂÒ»¸ö
-	//¸ø-1µÄ»°£¬Ëû¾ÍÄÜ²åÈëÄÄ¸ö¾Í¸øÄÄ¸ö¡£
 }
 void StackDestory(Stack* ps)
 {
@@ -44,12 +49,12 @@ void StackPush(Stack* ps, STDataType x)//ÈëÕ»£¬Õ»Ö»ÐèÒªÔÚÕ»¶¥½øÐÐ²Ù×÷£¬Õ»¶¥²åÈëÉ
 	//ps->a[ps->top] = x;
 	//Èç¹û³õÊ¼»¯ÄÇÀïtopÉèÖÃÎª-1£¬ÔòÓÃÏÂÃæÕâÖÖ·½Ê½
 }
-STDataType StackPop(Stack* ps)//³öÕ»
+void StackPop(Stack* ps)//³öÕ»
 {
 	assert(ps);//Õ»¿ÕÁË£¬ÔÙµ÷ÓÃPOP£¬Ö±½Ó±¨´í
 	assert(ps->top > 0);
 	ps->top--;
-	return ps->a[ps->top-1];
+	
 
 }
 STDataType StackTop(Stack* ps)

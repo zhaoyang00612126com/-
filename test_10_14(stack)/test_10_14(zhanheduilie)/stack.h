@@ -29,7 +29,7 @@ typedef struct Stack
 void StackInit(Stack* ps);
 void StackDestory(Stack* ps);
 void StackPushBack(Stack* ps, STDataType x);//入栈
- StackPop(Stack* ps);//出栈
+void  StackPop(Stack* ps);//出栈
  STDataType StackTop(Stack* ps);
 int StackSize(Stack* ps);
 bool StackEmpty(Stack* ps);//空就返回1，非空就返回0
